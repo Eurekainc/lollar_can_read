@@ -7,9 +7,6 @@ A purely functional programming language, in which, a function has no side-effec
 
 Haskell is lazy and won’t execute functions and calculate things until forced to do so.
 
-##### Questions
-* Does the recursion call do one number at a time on the return? See example for more details.
-
 ## Chapter 2 - Starting Out
 ### Ready, Set, Go!
 Most other maths are the same. As well as Boolean algebra except that instead of `true` and `false` you would use `True` and `False`.  Also the not operator is explicitly typed out as `not`
@@ -292,7 +289,6 @@ let xs = [(1,3),(4,3),(2,4),(5,3),(5,6),(3,1)]
 [ a+b | (a,b) <- xs]
 [4,7,6,8,11,4]
 ```
-#TODO: Find out about syntax in the above example
 
 Should the above pattern match fail it will just move to the next element.
 
